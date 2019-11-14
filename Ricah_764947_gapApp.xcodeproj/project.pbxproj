@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B808C4B237DDB330002E54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B808C4A237DDB330002E54E /* AppDelegate.swift */; };
+		9B808C4D237DDB330002E54E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B808C4C237DDB330002E54E /* SceneDelegate.swift */; };
+		9B808C52237DDB330002E54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B808C50237DDB330002E54E /* Main.storyboard */; };
+		9B808C54237DDB350002E54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B808C53237DDB350002E54E /* Assets.xcassets */; };
+		9B808C57237DDB350002E54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B808C55237DDB350002E54E /* LaunchScreen.storyboard */; };
+		9B808C62237DDB360002E54E /* Ricah_764947_gapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B808C61237DDB360002E54E /* Ricah_764947_gapAppTests.swift */; };
+		9B808C6D237DDB360002E54E /* Ricah_764947_gapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B808C6C237DDB360002E54E /* Ricah_764947_gapAppUITests.swift */; };
+		9B808C7B237DE29D0002E54E /* studentDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B808C7A237DE29D0002E54E /* studentDatabase.swift */; };
+		9B808C7D237DE36B0002E54E /* show_Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B808C7C237DE36B0002E54E /* show_Student.swift */; };
+		9B808C7F237DE71E0002E54E /* AddStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B808C7E237DE71E0002E54E /* AddStudents.swift */; };
+		9B808C81237DF0440002E54E /* CalculateGpa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B808C80237DF0440002E54E /* CalculateGpa.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B808C5E237DDB360002E54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B808C3F237DDB330002E54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B808C46237DDB330002E54E;
+			remoteInfo = Ricah_764947_gapApp;
+		};
+		9B808C69237DDB360002E54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B808C3F237DDB330002E54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B808C46237DDB330002E54E;
+			remoteInfo = Ricah_764947_gapApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B808C47237DDB330002E54E /* Ricah_764947_gapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ricah_764947_gapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B808C4A237DDB330002E54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B808C4C237DDB330002E54E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B808C51237DDB330002E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B808C53237DDB350002E54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B808C56237DDB350002E54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B808C58237DDB350002E54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B808C5D237DDB360002E54E /* Ricah_764947_gapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ricah_764947_gapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B808C61237DDB360002E54E /* Ricah_764947_gapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ricah_764947_gapAppTests.swift; sourceTree = "<group>"; };
+		9B808C63237DDB360002E54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B808C68237DDB360002E54E /* Ricah_764947_gapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ricah_764947_gapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B808C6C237DDB360002E54E /* Ricah_764947_gapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ricah_764947_gapAppUITests.swift; sourceTree = "<group>"; };
+		9B808C6E237DDB360002E54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B808C7A237DE29D0002E54E /* studentDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentDatabase.swift; sourceTree = "<group>"; };
+		9B808C7C237DE36B0002E54E /* show_Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = show_Student.swift; sourceTree = "<group>"; };
+		9B808C7E237DE71E0002E54E /* AddStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudents.swift; sourceTree = "<group>"; };
+		9B808C80237DF0440002E54E /* CalculateGpa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateGpa.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B808C44237DDB330002E54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B808C5A237DDB360002E54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B808C65237DDB360002E54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B808C3E237DDB330002E54E = {
+			isa = PBXGroup;
+			children = (
+				9B808C49237DDB330002E54E /* Ricah_764947_gapApp */,
+				9B808C60237DDB360002E54E /* Ricah_764947_gapAppTests */,
+				9B808C6B237DDB360002E54E /* Ricah_764947_gapAppUITests */,
+				9B808C48237DDB330002E54E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B808C48237DDB330002E54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B808C47237DDB330002E54E /* Ricah_764947_gapApp.app */,
+				9B808C5D237DDB360002E54E /* Ricah_764947_gapAppTests.xctest */,
+				9B808C68237DDB360002E54E /* Ricah_764947_gapAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B808C49237DDB330002E54E /* Ricah_764947_gapApp */ = {
+			isa = PBXGroup;
+			children = (
+				9B808C4A237DDB330002E54E /* AppDelegate.swift */,
+				9B808C4C237DDB330002E54E /* SceneDelegate.swift */,
+				9B808C50237DDB330002E54E /* Main.storyboard */,
+				9B808C53237DDB350002E54E /* Assets.xcassets */,
+				9B808C55237DDB350002E54E /* LaunchScreen.storyboard */,
+				9B808C58237DDB350002E54E /* Info.plist */,
+				9B808C7A237DE29D0002E54E /* studentDatabase.swift */,
+				9B808C7C237DE36B0002E54E /* show_Student.swift */,
+				9B808C7E237DE71E0002E54E /* AddStudents.swift */,
+				9B808C80237DF0440002E54E /* CalculateGpa.swift */,
+			);
+			path = Ricah_764947_gapApp;
+			sourceTree = "<group>";
+		};
+		9B808C60237DDB360002E54E /* Ricah_764947_gapAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B808C61237DDB360002E54E /* Ricah_764947_gapAppTests.swift */,
+				9B808C63237DDB360002E54E /* Info.plist */,
+			);
+			path = Ricah_764947_gapAppTests;
+			sourceTree = "<group>";
+		};
+		9B808C6B237DDB360002E54E /* Ricah_764947_gapAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B808C6C237DDB360002E54E /* Ricah_764947_gapAppUITests.swift */,
+				9B808C6E237DDB360002E54E /* Info.plist */,
+			);
+			path = Ricah_764947_gapAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B808C46237DDB330002E54E /* Ricah_764947_gapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B808C71237DDB360002E54E /* Build configuration list for PBXNativeTarget "Ricah_764947_gapApp" */;
+			buildPhases = (
+				9B808C43237DDB330002E54E /* Sources */,
+				9B808C44237DDB330002E54E /* Frameworks */,
+				9B808C45237DDB330002E54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ricah_764947_gapApp;
+			productName = Ricah_764947_gapApp;
+			productReference = 9B808C47237DDB330002E54E /* Ricah_764947_gapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B808C5C237DDB360002E54E /* Ricah_764947_gapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B808C74237DDB360002E54E /* Build configuration list for PBXNativeTarget "Ricah_764947_gapAppTests" */;
+			buildPhases = (
+				9B808C59237DDB360002E54E /* Sources */,
+				9B808C5A237DDB360002E54E /* Frameworks */,
+				9B808C5B237DDB360002E54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B808C5F237DDB360002E54E /* PBXTargetDependency */,
+			);
+			name = Ricah_764947_gapAppTests;
+			productName = Ricah_764947_gapAppTests;
+			productReference = 9B808C5D237DDB360002E54E /* Ricah_764947_gapAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B808C67237DDB360002E54E /* Ricah_764947_gapAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B808C77237DDB360002E54E /* Build configuration list for PBXNativeTarget "Ricah_764947_gapAppUITests" */;
+			buildPhases = (
+				9B808C64237DDB360002E54E /* Sources */,
+				9B808C65237DDB360002E54E /* Frameworks */,
+				9B808C66237DDB360002E54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B808C6A237DDB360002E54E /* PBXTargetDependency */,
+			);
+			name = Ricah_764947_gapAppUITests;
+			productName = Ricah_764947_gapAppUITests;
+			productReference = 9B808C68237DDB360002E54E /* Ricah_764947_gapAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B808C3F237DDB330002E54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9B808C46237DDB330002E54E = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					9B808C5C237DDB360002E54E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 9B808C46237DDB330002E54E;
+					};
+					9B808C67237DDB360002E54E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 9B808C46237DDB330002E54E;
+					};
+				};
+			};
+			buildConfigurationList = 9B808C42237DDB330002E54E /* Build configuration list for PBXProject "Ricah_764947_gapApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B808C3E237DDB330002E54E;
+			productRefGroup = 9B808C48237DDB330002E54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B808C46237DDB330002E54E /* Ricah_764947_gapApp */,
+				9B808C5C237DDB360002E54E /* Ricah_764947_gapAppTests */,
+				9B808C67237DDB360002E54E /* Ricah_764947_gapAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B808C45237DDB330002E54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B808C57237DDB350002E54E /* LaunchScreen.storyboard in Resources */,
+				9B808C54237DDB350002E54E /* Assets.xcassets in Resources */,
+				9B808C52237DDB330002E54E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B808C5B237DDB360002E54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B808C66237DDB360002E54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B808C43237DDB330002E54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B808C7B237DE29D0002E54E /* studentDatabase.swift in Sources */,
+				9B808C7D237DE36B0002E54E /* show_Student.swift in Sources */,
+				9B808C4B237DDB330002E54E /* AppDelegate.swift in Sources */,
+				9B808C81237DF0440002E54E /* CalculateGpa.swift in Sources */,
+				9B808C7F237DE71E0002E54E /* AddStudents.swift in Sources */,
+				9B808C4D237DDB330002E54E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B808C59237DDB360002E54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B808C62237DDB360002E54E /* Ricah_764947_gapAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B808C64237DDB360002E54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B808C6D237DDB360002E54E /* Ricah_764947_gapAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B808C5F237DDB360002E54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B808C46237DDB330002E54E /* Ricah_764947_gapApp */;
+			targetProxy = 9B808C5E237DDB360002E54E /* PBXContainerItemProxy */;
+		};
+		9B808C6A237DDB360002E54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B808C46237DDB330002E54E /* Ricah_764947_gapApp */;
+			targetProxy = 9B808C69237DDB360002E54E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B808C50237DDB330002E54E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B808C51237DDB330002E54E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B808C55237DDB350002E54E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B808C56237DDB350002E54E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B808C6F237DDB360002E54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B808C70237DDB360002E54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B808C72237DDB360002E54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ricah_764947_gapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Ricah-764947-gapApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B808C73237DDB360002E54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ricah_764947_gapApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Ricah-764947-gapApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B808C75237DDB360002E54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ricah_764947_gapAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Ricah-764947-gapAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ricah_764947_gapApp.app/Ricah_764947_gapApp";
+			};
+			name = Debug;
+		};
+		9B808C76237DDB360002E54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ricah_764947_gapAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Ricah-764947-gapAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ricah_764947_gapApp.app/Ricah_764947_gapApp";
+			};
+			name = Release;
+		};
+		9B808C78237DDB360002E54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ricah_764947_gapAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Ricah-764947-gapAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ricah_764947_gapApp;
+			};
+			name = Debug;
+		};
+		9B808C79237DDB360002E54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ricah_764947_gapAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.Ricah-764947-gapAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ricah_764947_gapApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B808C42237DDB330002E54E /* Build configuration list for PBXProject "Ricah_764947_gapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B808C6F237DDB360002E54E /* Debug */,
+				9B808C70237DDB360002E54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B808C71237DDB360002E54E /* Build configuration list for PBXNativeTarget "Ricah_764947_gapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B808C72237DDB360002E54E /* Debug */,
+				9B808C73237DDB360002E54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B808C74237DDB360002E54E /* Build configuration list for PBXNativeTarget "Ricah_764947_gapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B808C75237DDB360002E54E /* Debug */,
+				9B808C76237DDB360002E54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B808C77237DDB360002E54E /* Build configuration list for PBXNativeTarget "Ricah_764947_gapAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B808C78237DDB360002E54E /* Debug */,
+				9B808C79237DDB360002E54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B808C3F237DDB330002E54E /* Project object */;
+}
