@@ -8,21 +8,31 @@
 
 import UIKit
 
-class show_Student: UITableViewController {
+class show_Student: UITableViewController,UISearchResultsUpdating {
+    
+    func updateSearchResults(for searchController: UISearchController) {
+        
+        
+    }
+    
 
     @IBOutlet var studTabl: UITableView!
+    var index : Int = -1
+    @IBOutlet weak var uisearchbar: UISearchBar!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        let searchController = UISearchController(searchResultsController: nil)
+      
+        searchController.searchResultsUpdater = self
+        definesPresentationContext = true
+        tableView.tableHeaderView = searchController.searchBar
+        searchController.searchBar.tintColor = UIColor.white
+ 
+        
     }
 
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -37,8 +47,9 @@ class show_Student: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        
-         var cell = tableView.dequeueReusableCell(withIdentifier: "student", for: indexPath)
-         cell.textLabel?.text =  Students.student_data[indexPath.row].first_Name
+        let cell = tableView.dequeueReusableCell(withIdentifier: "student", for: indexPath)
+        cell.textLabel?.text =  " \(Students.student_data[indexPath.row].first_Name) \(Students.student_data[indexPath.row].sem1_cgpa)"
+        index = indexPath.row
          return cell
   
     }
@@ -90,9 +101,17 @@ class show_Student: UITableViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      
-        if var reload_data = segue.destination as? AddStudents{
+        if let reload_data = segue.destination as? AddStudents{
             
             reload_data.showStudDelegete = self
+            
+        }else{
+                
+                if let sendIndex = segue.destination as? SemChooseViewController{
+                    sendIndex.delegeteAddstud = self
+                    
+            }
+            
         }
         
     }
