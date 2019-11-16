@@ -21,10 +21,20 @@ class AddStudents: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let v = UITapGestureRecognizer(target: self, action: #selector(ontap))
+        self.view.addGestureRecognizer(v)
+        
         // Do any additional setup after loading the view.
     }
     
-
+    @objc func ontap(){
+        
+        s_id.resignFirstResponder()
+        l_name.resignFirstResponder()
+        f_name.resignFirstResponder()
+        
+    }
     @IBAction func save_to_studData(_ sender: Any) {
      if f_name.text! == "" && l_name.text! == "" && s_id.text! == ""{
                alert = UIAlertController(title: "You cant leave empty fields ", message: "add in each field", preferredStyle: .alert)
@@ -38,7 +48,7 @@ class AddStudents: UIViewController {
                    alert?.addAction(UIAlertAction(title: "Yes I am sure!", style: .default, handler: { (act) in
                         
                             self.append_stud_data()
-                            self.alert2 = UIAlertController(title: "New Contact Saved", message: "\(name) is now a student.", preferredStyle: .actionSheet)
+                            self.alert2 = UIAlertController(title: "New Contact Saved", message: "\(name) is now a student.", preferredStyle: .alert)
                             self.alert2?.addAction(UIAlertAction(title: "OK", style: .destructive, handler: nil))
                             self.present(self.alert2!, animated: true)
                     self.ReloadView()

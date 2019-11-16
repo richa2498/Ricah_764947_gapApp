@@ -16,6 +16,10 @@ struct Students {
     var sem1_cgpa : Double = 0.0
     var sem2_cgpa : Double = 0.0
     var sem3_cgpa : Double = 0.0
+    var sem1 : [Int] = []
+    var sem2 : [Int] = []
+    var sem3 : [Int] = []
+    
     static var student_data = [Students]()
     
 }
